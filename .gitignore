@@ -40,3 +40,7 @@ terraform.rc
 
 plan
 plano
+
+#infracost
+
+.infracost
