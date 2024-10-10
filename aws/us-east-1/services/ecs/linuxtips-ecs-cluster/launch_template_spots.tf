@@ -9,13 +9,13 @@ resource "aws_launch_template" "spots" {
   ]
 
   iam_instance_profile {
-    name = "ecsInstanceRole"
+    name = aws_iam_instance_profile.main.name
   }
 
   instance_market_options {
     market_type = "spot"
     spot_options {
-      max_price = "0.0057"
+      max_price = "0.0062"
     }
   }
 
