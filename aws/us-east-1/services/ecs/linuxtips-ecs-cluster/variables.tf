@@ -32,3 +32,15 @@ variable "node_instance_type" {}
 variable "node_volume_size" {}
 
 variable "node_volume_type" {}
+
+variable "cluster_on_demand_min_size" {}
+
+variable "cluster_on_demand_max_size" {}
+
+variable "cluster_on_demand_disered_size" {}
+
+variable "cluster_spots_min_size" {}
+
+variable "cluster_spots_max_size" {}
+
+variable "cluster_spots_disered_size" {}
